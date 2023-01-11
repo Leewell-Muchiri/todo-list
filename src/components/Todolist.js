@@ -1,6 +1,11 @@
-import todoitem from "./Todoitem";
+import Todoitem from "./Todoitem";
 
-function todolist () {
-    return 
+function Todolist () {
+    return (
+        <div>
+            <Todoitem />
+            <Todoitem />
+        </div>
+    )
 }
-export default todolist;
+export default Todolist;
